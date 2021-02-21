@@ -7,6 +7,7 @@
 <body>
 <p><textarea id="input" cols="30" rows="10" placeholder="Скопируйте сюда вывод nginx -V"></textarea></p>
 <p><textarea id="output" cols="30" rows="10" disabled></textarea></p>
+<p><a href="https://github.com/abicorios/splitter">Source code</a></p>
 <script>
     document.getElementById('input').addEventListener('keyup', function () {
         document.getElementById('output').value = this.value.replace(/\s+/g, '\n')
